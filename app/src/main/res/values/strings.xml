@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">3.1.2.AndroidPetukhova_changeLanguage</string>
+    <string name="welcomeText">Добро пожаловать!</string>
+
+    <string name="btnStyle">Выберите стиль</string>
+    <string name="btnLanguage">Выберите язык</string>
+    <string name="topicText">Москва - столица России.</string>
+
+    <string-array name="language">
+        <item>Русский</item>
+        <item>Английский</item>
+    </string-array>
+
+    <string-array name="color">
+        <item>Черный</item>
+        <item>Зеленый</item>
+        <item>Синий</item>
+    </string-array>
+</resources>
