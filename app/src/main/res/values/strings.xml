@@ -2,9 +2,11 @@
     <string name="app_name">3.1.2.AndroidPetukhova_changeLanguage</string>
     <string name="welcomeText">Добро пожаловать!</string>
 
-    <string name="btnStyle">Выберите стиль</string>
-    <string name="btnLanguage">Выберите язык</string>
+
+    <string name="btnOK">OK</string>
     <string name="topicText">Москва - столица России.</string>
+    <string name="txtChooseColor">Выберите цвет</string>
+    <string name="txtChooseLanguage">Выберите язык</string>
 
     <string-array name="language">
         <item>Русский</item>

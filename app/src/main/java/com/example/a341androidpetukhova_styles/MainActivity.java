@@ -16,8 +16,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     private Spinner languageSpinner;
-    private Button btnLanguage;
-    private Button btnStyle;
+    private Button btnOK;
     private Spinner colorSpinner;
 
     @Override
@@ -34,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViews() {
         languageSpinner = findViewById(R.id.languageSpinner);
-        btnLanguage = findViewById(R.id.btnLanguage);
+        btnOK = findViewById(R.id.btnOK);
         colorSpinner = findViewById(R.id.colorSpinner);
-        btnStyle = findViewById(R.id.btnStyle);
+
     }
 
     private void initSpinnerLanguage() {
@@ -81,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setOnClickBtnLanguage(final String lang) {
-        btnLanguage.setOnClickListener(new View.OnClickListener() {
+        btnOK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 switch (lang) {
@@ -106,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setOnClickBtnColor(final String colors) {
-        btnStyle.setOnClickListener(new View.OnClickListener() {
+        btnOK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 switch (colors) {
