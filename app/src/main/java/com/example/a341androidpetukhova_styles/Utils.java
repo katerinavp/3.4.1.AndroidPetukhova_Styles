@@ -1,5 +1,7 @@
 package com.example.a341androidpetukhova_styles;
 
+import android.graphics.Color;
+
 public class Utils {
 
     private static int sTheme;

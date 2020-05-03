@@ -7,32 +7,33 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-
     </style>
 
     <style name="AppThemeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">#2E8B57</item>
         <item name="colorPrimaryDark">#006400</item>
         <item name="colorAccent">#6B8E23</item>
-        <item name="android:textColor">#1F4721</item>
-        <item name="android:background">#A1FAA6</item>
-
+        <item name="android:textColor">#025C08</item>
+        <item name="customWindowBackground">#758877</item>
+        <item name="customButtonColor">#002503</item>
     </style>
 
     <style name="AppThemeBlack" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">#504F4F</item>
         <item name="colorPrimaryDark">#000000</item>
         <item name="colorAccent">#9C9C9C</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:background">#878787</item>
+        <item name="android:textColor">#FEFFFF</item>
+        <item name="customWindowBackground">#ABABAC</item>
+        <item name="customButtonColor">#101019</item>
     </style>
 
-    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.DarkActionBar" >
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">#4A76E8</item>
         <item name="colorPrimaryDark">#033C70</item>
         <item name="colorAccent">#A0BDEF</item>
-        <item name="android:textColor">#1A237E</item>
-        <item name="android:background">#B3C6F4</item>
+        <item name="android:textColor">#024E9A</item>
+        <item name="customWindowBackground">#8BC7E3</item>
+        <item name="customButtonColor">#2155DA</item>
     </style>
 
 </resources>

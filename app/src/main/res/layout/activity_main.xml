@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?customWindowBackground"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,6 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/txtChooseLanguage"
         android:layout_width="0dp"
@@ -30,9 +31,11 @@
         android:id="@+id/languageSpinner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:popupBackground="?customWindowBackground"
         app:layout_constraintBottom_toTopOf="@id/txtChooseColor"
         app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
         app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft" />
+
     <TextView
         android:id="@+id/txtChooseColor"
         android:layout_width="0dp"
@@ -40,21 +43,22 @@
         android:text="@string/txtChooseColor"
         app:layout_constraintBottom_toTopOf="@+id/colorSpinner"
         app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
-        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
-        />
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft" />
+
     <Spinner
         android:id="@+id/colorSpinner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:popupBackground="?customWindowBackground"
         app:layout_constraintBottom_toTopOf="@id/btnOK"
         app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
-        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
-        />
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft" />
 
     <Button
         android:id="@+id/btnOK"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="?customButtonColor"
         android:text="@string/btnOK"
         app:layout_constraintEnd_toEndOf="@id/guidelineVerticalRight"
         app:layout_constraintStart_toStartOf="@id/guidelineVerticalLeft"
